@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def number_keys(a_dictionary):
-    "returns the number of keys in a dictionary"
+def only_diff_elements(set_1, set_2):
+    "returns a set of all elements present in only one set"
 
-    return(len(a_dictionary))
+    return (set_1 ^ set_2)
